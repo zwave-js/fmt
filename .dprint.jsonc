@@ -1,0 +1,31 @@
+{
+	"lineWidth": 80,
+	"useTabs": true,
+	"indentWidth": 4,
+	"newLineKind": "lf",
+	"typescript": {
+		"semiColons": "prefer",
+		"quoteStyle": "alwaysDouble",
+		"module.sortImportDeclarations": "caseSensitive",
+		"importDeclaration.sortNamedImports": "caseSensitive",
+		"module.sortExportDeclarations": "caseSensitive",
+		"exportDeclaration.sortNamedExports": "caseSensitive",
+		"arrowFunction.useParentheses": "force",
+		// Preserve maximum overlap with the current formatter,
+		// then consider turning these off one by one.
+		// "operatorPosition": "sameLine",
+		"conditionalExpression.operatorPosition": "nextLine",
+		"conditionalType.operatorPosition": "nextLine",
+		"constructorType.spaceAfterNewKeyword": true,
+		"constructSignature.spaceAfterNewKeyword": true
+	},
+	// "includes": [
+	// 	"src/**/*.ts"
+	// ],
+	"plugins": [
+		// We use our own fork of the typescript plugin to support loop labels for now.
+		// When we update to upstream, we can also get rid of the shipped wasm file.
+		"https://github.com/AlCalzone/dprint-plugin-typescript/releases/download/loop-label/dprint_plugin_typescript.wasm",
+		"https://plugins.dprint.dev/json-0.17.4.wasm"
+	]
+}

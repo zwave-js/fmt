@@ -1,0 +1,27 @@
+node_modules/
+package-lock.json
+
+# Yarn config and stuff - we're not using Zero-Installs
+# because that would blow up the repo size even more
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# compiled test-files
+*.test.js
+/.nyc_output
+coverage/
+
+# Compiled source files
+build/
+plugins/
+**/*.tsbuildinfo
+*.map
+
+.DS_Store
+
+*.tgz

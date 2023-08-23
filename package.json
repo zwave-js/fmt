@@ -1,0 +1,62 @@
+{
+  "name": "@zwave-js/fmt",
+  "version": "1.0.0",
+  "description": "Dprint wrapper to programmatically format source files in memory",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "keywords": [],
+  "files": [
+    "build/",
+    "plugins/"
+  ],
+  "author": {
+    "name": "AlCalzone",
+    "email": "d.griesel@gmx.net"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/zwave-js/fmt#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwave-js/fmt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zwave-js/fmt/issues"
+  },
+  "funding": {
+    "url": "https://github.com/sponsors/AlCalzone/"
+  },
+  "engines": {
+    "node": ">=14.13.0 <15 || >= 16 <16.9.0 || >16.9.0"
+  },
+  "scripts": {
+    "clean": "del-cli build/",
+    "build": "yarn clean && tsc",
+    "prepack": "yarn build",
+    "install-plugin": "mkdir -p plugins && curl -L https://github.com/AlCalzone/dprint-plugin-typescript/releases/download/loop-label/dprint_plugin_typescript.wasm --output plugins/typescript.wasm",
+    "test": "node test/test.js",
+    "prepublish": "yarn test"
+  },
+  "dependencies": {
+    "json5": "^2.2.3"
+  },
+  "devDependencies": {
+    "@dprint/formatter": "^0.2.0",
+    "@dprint/json": "^0.17.4",
+    "@dprint/markdown": "^0.15.3",
+    "@dprint/typescript": "^0.86.2",
+    "@tsconfig/node16": "^16.1.1",
+    "@types/node": "^16.18.43",
+    "del-cli": "^5.0.0",
+    "dprint": "^0.40.2",
+    "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "@dprint/formatter": "^0.2.0",
+    "@dprint/json": "^0.17.4",
+    "@dprint/markdown": "^0.15.3",
+    "@dprint/typescript": "^0.86.2"
+  }
+}

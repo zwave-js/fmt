@@ -1,0 +1,21 @@
+{
+	"extends": "@tsconfig/node16/tsconfig.json",
+	"compilerOptions": {
+		"outDir": "build",
+		"declaration": true,
+		"declarationMap": true,
+		"noEmitOnError": true,
+		"removeComments": false,
+		"sourceMap": true,
+		"inlineSourceMap": false,
+		"stripInternal": true,
+		"pretty": true
+	},
+	"include": [
+		"src/**/*.ts"
+	],
+	"exclude": [
+		"**/build/**",
+		"node_modules/**"
+	]
+}
