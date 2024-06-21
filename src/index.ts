@@ -9,10 +9,7 @@ import path from "path";
 
 import { getPath as jsonGetPath } from "@dprint/json";
 import { getPath as mdGetPath } from "@dprint/markdown";
-// TODO: Re-enable this when the typescript formatter is fixed.
-// import { getPath as tsGetPath } from "@dprint/typescript";
-
-const tsGetPath = () => path.resolve(__dirname, "../plugins/typescript.wasm");
+import { getPath as tsGetPath } from "@dprint/typescript";
 
 const formatterCache = new Map<string, Formatter>();
 

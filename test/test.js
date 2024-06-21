@@ -3,8 +3,7 @@ const { formatWithDprint } = require("..");
 const path = require("path");
 
 const input = `
-loop:
-for(;;){console.log(1); console.log(2)}
+loop: for(;;){console.log(1); console.log(2)}
 `;
 
 const expected = `

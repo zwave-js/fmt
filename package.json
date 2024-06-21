@@ -35,7 +35,6 @@
     "clean": "del-cli build/",
     "build": "yarn clean && tsc",
     "prepack": "yarn build",
-    "install-plugin": "mkdir -p plugins && curl -L https://github.com/AlCalzone/dprint-plugin-typescript/releases/download/loop-label/dprint_plugin_typescript.wasm --output plugins/typescript.wasm",
     "test": "node test/test.js",
     "prepublish": "yarn test"
   },
@@ -43,20 +42,21 @@
     "json5": "^2.2.3"
   },
   "devDependencies": {
-    "@dprint/formatter": "^0.2.0",
-    "@dprint/json": "^0.17.4",
-    "@dprint/markdown": "^0.15.3",
-    "@dprint/typescript": "^0.86.2",
-    "@tsconfig/node16": "^16.1.1",
-    "@types/node": "^16.18.43",
-    "del-cli": "^5.0.0",
-    "dprint": "^0.40.2",
-    "typescript": "^5.1.6"
+    "@dprint/formatter": "^0.3.0",
+    "@dprint/json": "^0.19.3",
+    "@dprint/markdown": "^0.17.1",
+    "@dprint/typescript": "^0.91.1",
+    "@tsconfig/node16": "^16.1.3",
+    "@types/node": "^16.18.101",
+    "del-cli": "^5.1.0",
+    "dprint": "^0.46.3",
+    "typescript": "^5.5.2"
   },
   "peerDependencies": {
-    "@dprint/formatter": "^0.2.0",
-    "@dprint/json": "^0.17.4",
-    "@dprint/markdown": "^0.15.3",
-    "@dprint/typescript": "^0.86.2"
-  }
+    "@dprint/formatter": "^0.3.0",
+    "@dprint/json": "^0.19.3",
+    "@dprint/markdown": "^0.17.1",
+    "@dprint/typescript": "^0.91.1"
+  },
+  "packageManager": "yarn@4.3.1"
 }
