@@ -1,6 +1,6 @@
 {
   "name": "@zwave-js/fmt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dprint wrapper to programmatically format source files in memory",
   "publishConfig": {
     "access": "public"
