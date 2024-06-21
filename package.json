@@ -58,5 +58,6 @@
     "@dprint/json": "^0.17.4",
     "@dprint/markdown": "^0.15.3",
     "@dprint/typescript": "^0.86.2"
-  }
+  },
+  "packageManager": "yarn@4.3.1"
 }
