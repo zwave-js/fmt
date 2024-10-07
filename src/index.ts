@@ -131,5 +131,8 @@ export function formatWithDprint(
 	const config = getConfig(rootDir, filename);
 	const extension = getNormalizedExtension(filename);
 	formatter.setConfig(config.global, (config as any)[extension] ?? {});
-	return formatter.formatText(filename, sourceText);
+	return formatter.formatText({
+		filePath: filename,
+		fileText: sourceText,
+	});
 }
