@@ -1,6 +1,6 @@
 {
   "name": "@zwave-js/fmt",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Dprint wrapper to programmatically format source files in memory",
   "publishConfig": {
     "access": "public"
@@ -43,14 +43,14 @@
   },
   "devDependencies": {
     "@dprint/formatter": "^0.4.1",
-    "@dprint/json": "^0.19.3",
+    "@dprint/json": "^0.19.4",
     "@dprint/markdown": "^0.17.8",
-    "@dprint/typescript": "^0.93.0",
+    "@dprint/typescript": "^0.93.3",
     "@tsconfig/node16": "^16.1.3",
     "@types/node": "^16.18.101",
     "del-cli": "^5.1.0",
-    "dprint": "^0.47.2",
-    "typescript": "^5.5.2"
+    "dprint": "^0.48.0",
+    "typescript": "^5.7.3"
   },
   "peerDependencies": {
     "@dprint/formatter": "^0.4.1",
