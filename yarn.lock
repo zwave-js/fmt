@@ -33,16 +33,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@dprint/darwin-arm64@npm:0.48.0":
-  version: 0.48.0
-  resolution: "@dprint/darwin-arm64@npm:0.48.0"
+"@dprint/darwin-arm64@npm:0.49.1":
+  version: 0.49.1
+  resolution: "@dprint/darwin-arm64@npm:0.49.1"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@dprint/darwin-x64@npm:0.48.0":
-  version: 0.48.0
-  resolution: "@dprint/darwin-x64@npm:0.48.0"
+"@dprint/darwin-x64@npm:0.49.1":
+  version: 0.49.1
+  resolution: "@dprint/darwin-x64@npm:0.49.1"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
@@ -54,72 +54,72 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@dprint/json@npm:^0.19.4":
-  version: 0.19.4
-  resolution: "@dprint/json@npm:0.19.4"
-  checksum: 10/048ea00fa8bfe0871a0cfb8970ee996372b87fce8622ec35b2c2f2ab2631844d2e7eadd40185851e6a9956a6ccab486768db522c05651979ed1d0a198aebc05f
+"@dprint/json@npm:^0.20.0":
+  version: 0.20.0
+  resolution: "@dprint/json@npm:0.20.0"
+  checksum: 10/0add515edbde62bcfc35939502896ddc24f4c5905ec8d56f8edcb415ecac6b1ece60f592037a3b6188be6c1baa0100546cfcad88734218ef3fe352f880d22ae1
   languageName: node
   linkType: hard
 
-"@dprint/linux-arm64-glibc@npm:0.48.0":
-  version: 0.48.0
-  resolution: "@dprint/linux-arm64-glibc@npm:0.48.0"
+"@dprint/linux-arm64-glibc@npm:0.49.1":
+  version: 0.49.1
+  resolution: "@dprint/linux-arm64-glibc@npm:0.49.1"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@dprint/linux-arm64-musl@npm:0.48.0":
-  version: 0.48.0
-  resolution: "@dprint/linux-arm64-musl@npm:0.48.0"
+"@dprint/linux-arm64-musl@npm:0.49.1":
+  version: 0.49.1
+  resolution: "@dprint/linux-arm64-musl@npm:0.49.1"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@dprint/linux-riscv64-glibc@npm:0.48.0":
-  version: 0.48.0
-  resolution: "@dprint/linux-riscv64-glibc@npm:0.48.0"
+"@dprint/linux-riscv64-glibc@npm:0.49.1":
+  version: 0.49.1
+  resolution: "@dprint/linux-riscv64-glibc@npm:0.49.1"
   conditions: os=linux & cpu=riscv64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@dprint/linux-x64-glibc@npm:0.48.0":
-  version: 0.48.0
-  resolution: "@dprint/linux-x64-glibc@npm:0.48.0"
+"@dprint/linux-x64-glibc@npm:0.49.1":
+  version: 0.49.1
+  resolution: "@dprint/linux-x64-glibc@npm:0.49.1"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@dprint/linux-x64-musl@npm:0.48.0":
-  version: 0.48.0
-  resolution: "@dprint/linux-x64-musl@npm:0.48.0"
+"@dprint/linux-x64-musl@npm:0.49.1":
+  version: 0.49.1
+  resolution: "@dprint/linux-x64-musl@npm:0.49.1"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@dprint/markdown@npm:^0.17.8":
-  version: 0.17.8
-  resolution: "@dprint/markdown@npm:0.17.8"
-  checksum: 10/df2b1962c5d0063c0809d7a7eee435f4fd95295da38706b56d67f145ee7d030a3dae761512f488025344fd88af2b596e910d1f6ba8ca7f79670f69bf7c6e592b
+"@dprint/markdown@npm:^0.18.0":
+  version: 0.18.0
+  resolution: "@dprint/markdown@npm:0.18.0"
+  checksum: 10/6d586bafecf1640cc7b57214fbca7e829f06cf5a9c5f235c95d15b600b20ed5aa6e60a3b1f8ca90cf082d88fad76ea34db46e23c9ff6ed0274d92fa9fdc162d8
   languageName: node
   linkType: hard
 
-"@dprint/typescript@npm:^0.93.3":
-  version: 0.93.3
-  resolution: "@dprint/typescript@npm:0.93.3"
-  checksum: 10/99e26723cedbb5826ebf8acdc82084a73cff1a0244f620955fab0306eee49e2850af0f61d21104e710693ff14aba48902e242e2efd86ad89828b75f480ae8ca1
+"@dprint/typescript@npm:^0.95.0":
+  version: 0.95.0
+  resolution: "@dprint/typescript@npm:0.95.0"
+  checksum: 10/015563ed015153472023f42c8537d17515a135b6aea54365897f70e28db412d320c35c48c026412b40167bd3cb5895ad811f102b5711753b3218876b4f6bfd5b
   languageName: node
   linkType: hard
 
-"@dprint/win32-arm64@npm:0.48.0":
-  version: 0.48.0
-  resolution: "@dprint/win32-arm64@npm:0.48.0"
+"@dprint/win32-arm64@npm:0.49.1":
+  version: 0.49.1
+  resolution: "@dprint/win32-arm64@npm:0.49.1"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@dprint/win32-x64@npm:0.48.0":
-  version: 0.48.0
-  resolution: "@dprint/win32-x64@npm:0.48.0"
+"@dprint/win32-x64@npm:0.49.1":
+  version: 0.49.1
+  resolution: "@dprint/win32-x64@npm:0.49.1"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -165,10 +165,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^16.18.101":
-  version: 16.18.101
-  resolution: "@types/node@npm:16.18.101"
-  checksum: 10/97592d3b2e29711a2c98ca3e9f6e52c8792d57e4ad45a18d68cdd6f9386615738d476b5366169ccae38099b60f6d63d15a2a6dced8e804f70dc32cc5b8f36c0c
+"@types/node@npm:^16.18.126":
+  version: 16.18.126
+  resolution: "@types/node@npm:16.18.126"
+  checksum: 10/33e0fa9209a4a96459a8fdf6b078ca9590eb67a8d51899180cfac8afecb9aa133c755d1c38a8b947b9f384f2faa184cabf4e567f5f6dded285be1b31588ec199
   languageName: node
   linkType: hard
 
@@ -184,20 +184,20 @@ __metadata:
   resolution: "@zwave-js/fmt@workspace:."
   dependencies:
     "@dprint/formatter": "npm:^0.4.1"
-    "@dprint/json": "npm:^0.19.4"
-    "@dprint/markdown": "npm:^0.17.8"
-    "@dprint/typescript": "npm:^0.93.3"
+    "@dprint/json": "npm:^0.20.0"
+    "@dprint/markdown": "npm:^0.18.0"
+    "@dprint/typescript": "npm:^0.95.0"
     "@tsconfig/node16": "npm:^16.1.3"
-    "@types/node": "npm:^16.18.101"
+    "@types/node": "npm:^16.18.126"
     del-cli: "npm:^5.1.0"
-    dprint: "npm:^0.48.0"
+    dprint: "npm:^0.49.1"
     json5: "npm:^2.2.3"
     typescript: "npm:^5.7.3"
   peerDependencies:
     "@dprint/formatter": ^0.4.1
-    "@dprint/json": ^0.19.3
-    "@dprint/markdown": ^0.17.8
-    "@dprint/typescript": ^0.93.0
+    "@dprint/json": ^0.20.0
+    "@dprint/markdown": ^0.18.0
+    "@dprint/typescript": ^0.95.0
   languageName: unknown
   linkType: soft
 
@@ -377,19 +377,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dprint@npm:^0.48.0":
-  version: 0.48.0
-  resolution: "dprint@npm:0.48.0"
+"dprint@npm:^0.49.1":
+  version: 0.49.1
+  resolution: "dprint@npm:0.49.1"
   dependencies:
-    "@dprint/darwin-arm64": "npm:0.48.0"
-    "@dprint/darwin-x64": "npm:0.48.0"
-    "@dprint/linux-arm64-glibc": "npm:0.48.0"
-    "@dprint/linux-arm64-musl": "npm:0.48.0"
-    "@dprint/linux-riscv64-glibc": "npm:0.48.0"
-    "@dprint/linux-x64-glibc": "npm:0.48.0"
-    "@dprint/linux-x64-musl": "npm:0.48.0"
-    "@dprint/win32-arm64": "npm:0.48.0"
-    "@dprint/win32-x64": "npm:0.48.0"
+    "@dprint/darwin-arm64": "npm:0.49.1"
+    "@dprint/darwin-x64": "npm:0.49.1"
+    "@dprint/linux-arm64-glibc": "npm:0.49.1"
+    "@dprint/linux-arm64-musl": "npm:0.49.1"
+    "@dprint/linux-riscv64-glibc": "npm:0.49.1"
+    "@dprint/linux-x64-glibc": "npm:0.49.1"
+    "@dprint/linux-x64-musl": "npm:0.49.1"
+    "@dprint/win32-arm64": "npm:0.49.1"
+    "@dprint/win32-x64": "npm:0.49.1"
   dependenciesMeta:
     "@dprint/darwin-arm64":
       optional: true
@@ -411,7 +411,7 @@ __metadata:
       optional: true
   bin:
     dprint: bin.js
-  checksum: 10/ae8efe7a531d26f350660d3ecf28438ae3124695be8d7646f97c637545de90478cb61b5c5699746ab00060893c4631fd1c1623237b4d73b5fd98681ccbeb4203
+  checksum: 10/09f818e0d9a6f51412e2d2c7be4f6ff5426d3dff04e2c75385220d495ba7168c4b4101c5ce58003fa84dfeca0f649481008a3a3497a8abc5de4f5f1ac6d66e73
   languageName: node
   linkType: hard
 
