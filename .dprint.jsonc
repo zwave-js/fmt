@@ -17,15 +17,13 @@
 		"conditionalExpression.operatorPosition": "nextLine",
 		"conditionalType.operatorPosition": "nextLine",
 		"constructorType.spaceAfterNewKeyword": true,
-		"constructSignature.spaceAfterNewKeyword": true
+		"constructSignature.spaceAfterNewKeyword": true,
 	},
 	// "includes": [
 	// 	"src/**/*.ts"
 	// ],
 	"plugins": [
-		// We use our own fork of the typescript plugin to support loop labels for now.
-		// When we update to upstream, we can also get rid of the shipped wasm file.
-		"https://plugins.dprint.dev/typescript-0.93.0.wasm",
-		"https://plugins.dprint.dev/json-0.19.3.wasm"
-	]
+		"https://plugins.dprint.dev/typescript-0.95.11.wasm",
+		"https://plugins.dprint.dev/json-0.21.0.wasm",
+	],
 }
