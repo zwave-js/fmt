@@ -1,6 +1,6 @@
 {
   "name": "@zwave-js/fmt",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Dprint wrapper to programmatically format source files in memory",
   "publishConfig": {
     "access": "public"
@@ -36,12 +36,14 @@
     "build": "yarn clean && tsc",
     "prepack": "yarn build",
     "test": "node test/test.js",
-    "prepublish": "yarn test"
+    "prepublish": "yarn test",
+    "release": "release-script"
   },
   "dependencies": {
     "json5": "^2.2.3"
   },
   "devDependencies": {
+    "@alcalzone/release-script": "^5.0.0",
     "@dprint/formatter": "^0.4.1",
     "@dprint/json": "^0.21.0",
     "@dprint/markdown": "^0.20.0",

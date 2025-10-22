@@ -17,7 +17,7 @@ on:
 
 permissions:
   id-token: write # Required for publishing with OICD
-  contents: write  # Required for creating releases
+  contents: write # Required for creating releases
 
 jobs:
   # Runs unit tests on all supported node versions and OSes

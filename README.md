@@ -16,13 +16,23 @@ yarn add --dev @dprint/formatter @dprint/json @dprint/markdown @dprint/typescrip
 import { formatWithDprint } from "@zwave-js/fmt";
 
 const formatted = formatWithDprint(
-	"/path/to/repo/root",
-	"/path/to/repo/root/path/to/file.ts",
-	"const     foo = 1    "
-)
+  "/path/to/repo/root",
+  "/path/to/repo/root/path/to/file.ts",
+  "const     foo = 1    "
+);
 
 console.log(formatted);
 
 // prints:
 // const foo = 1;
 ```
+
+## Changelog
+
+<!--
+	Placeholder for next release:
+	### **WORK IN PROGRESS**
+-->
+### 1.0.5 (2025-10-22)
+
+- Dependency updates
