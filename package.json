@@ -1,62 +1,62 @@
 {
-	"name": "@zwave-js/fmt",
-	"version": "1.0.4",
-	"description": "Dprint wrapper to programmatically format source files in memory",
-	"publishConfig": {
-		"access": "public"
-	},
-	"main": "build/index.js",
-	"types": "build/index.d.ts",
-	"keywords": [],
-	"files": [
-		"build/",
-		"plugins/"
-	],
-	"author": {
-		"name": "AlCalzone",
-		"email": "d.griesel@gmx.net"
-	},
-	"license": "MIT",
-	"homepage": "https://github.com/zwave-js/fmt#readme",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/zwave-js/fmt.git"
-	},
-	"bugs": {
-		"url": "https://github.com/zwave-js/fmt/issues"
-	},
-	"funding": {
-		"url": "https://github.com/sponsors/AlCalzone/"
-	},
-	"engines": {
-		"node": ">=14.13.0 <15 || >= 16 <16.9.0 || >16.9.0"
-	},
-	"scripts": {
-		"clean": "del-cli build/",
-		"build": "yarn clean && tsc",
-		"prepack": "yarn build",
-		"test": "node test/test.js",
-		"prepublish": "yarn test"
-	},
-	"dependencies": {
-		"json5": "^2.2.3"
-	},
-	"devDependencies": {
-		"@dprint/formatter": "^0.4.1",
-		"@dprint/json": "^0.21.0",
-		"@dprint/markdown": "^0.20.0",
-		"@dprint/typescript": "^0.95.11",
-		"@tsconfig/node16": "^16.1.6",
-		"@types/node": "^16.18.126",
-		"del-cli": "^5.1.0",
-		"dprint": "^0.50.2",
-		"typescript": "^5.7.3"
-	},
-	"peerDependencies": {
-		"@dprint/formatter": "^0.4.1",
-		"@dprint/json": "^0.21.0",
-		"@dprint/markdown": "^0.20.0",
-		"@dprint/typescript": "^0.95.11"
-	},
-	"packageManager": "yarn@4.3.1"
+  "name": "@zwave-js/fmt",
+  "version": "1.0.4",
+  "description": "Dprint wrapper to programmatically format source files in memory",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "keywords": [],
+  "files": [
+    "build/",
+    "plugins/"
+  ],
+  "author": {
+    "name": "AlCalzone",
+    "email": "d.griesel@gmx.net"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/zwave-js/fmt#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwave-js/fmt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zwave-js/fmt/issues"
+  },
+  "funding": {
+    "url": "https://github.com/sponsors/AlCalzone/"
+  },
+  "engines": {
+    "node": ">=14.13.0 <15 || >= 16 <16.9.0 || >16.9.0"
+  },
+  "scripts": {
+    "clean": "del-cli build/",
+    "build": "yarn clean && tsc",
+    "prepack": "yarn build",
+    "test": "node test/test.js",
+    "prepublish": "yarn test"
+  },
+  "dependencies": {
+    "json5": "^2.2.3"
+  },
+  "devDependencies": {
+    "@dprint/formatter": "^0.4.1",
+    "@dprint/json": "^0.21.0",
+    "@dprint/markdown": "^0.20.0",
+    "@dprint/typescript": "^0.95.11",
+    "@tsconfig/node16": "^16.1.6",
+    "@types/node": "^16.18.126",
+    "del-cli": "^5.1.0",
+    "dprint": "^0.50.2",
+    "typescript": "^5.7.3"
+  },
+  "peerDependencies": {
+    "@dprint/formatter": "^0.4.1",
+    "@dprint/json": "^0.21.0",
+    "@dprint/markdown": "^0.20.0",
+    "@dprint/typescript": "^0.95.11"
+  },
+  "packageManager": "yarn@4.10.3"
 }
