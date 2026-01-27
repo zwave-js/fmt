@@ -44,14 +44,14 @@
   },
   "devDependencies": {
     "@alcalzone/release-script": "^5.0.0",
-    "@dprint/formatter": "^0.4.1",
-    "@dprint/json": "^0.21.0",
+    "@dprint/formatter": "^0.5.1",
+    "@dprint/json": "^0.21.1",
     "@dprint/markdown": "^0.20.0",
-    "@dprint/typescript": "^0.95.11",
+    "@dprint/typescript": "^0.95.13",
     "@tsconfig/node16": "^16.1.6",
     "@types/node": "^16.18.126",
     "del-cli": "^5.1.0",
-    "dprint": "^0.50.2",
+    "dprint": "^0.51.1",
     "typescript": "^5.7.3"
   },
   "peerDependencies": {
