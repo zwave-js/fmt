@@ -60,5 +60,5 @@
     "@dprint/markdown": "^0.20.0",
     "@dprint/typescript": "^0.95.11"
   },
-  "packageManager": "yarn@4.10.3"
+  "packageManager": "yarn@4.17.0"
 }
