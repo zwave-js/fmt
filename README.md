@@ -4,13 +4,6 @@
 
 This project is meant for internal use in the `node-zwave-js` project.
 
-## Contributing
-
-AI-assisted contributions are welcome when the contributor reviews, understands,
-and can explain every change. Autonomous contributions and unreviewed
-AI-generated communication are prohibited. See the
-[Z-Wave JS AI policy](AI_POLICY.md) for the full requirements.
-
 ## Install
 
 ```sh
